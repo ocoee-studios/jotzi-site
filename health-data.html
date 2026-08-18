@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jotzi Health & Data</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #071424;
+      color: #FFF7EA;
+      line-height: 1.6;
+    }
+    main {
+      width: min(820px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+    h1, h2 { line-height: 1.1; }
+    h1 { font-size: 44px; letter-spacing: -0.04em; }
+    h2 { margin-top: 32px; color: #F6C06E; }
+    p, li { color: #C8D4E3; font-weight: 600; }
+    ul { padding-left: 20px; }
+    a { color: #F6C06E; }
+    .card {
+      background: #132238;
+      border: 1px solid #3A516D;
+      border-radius: 24px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="./index.html">← Back to Jotzi</a>
+
+    <h1>Jotzi Health & Data</h1>
+
+    <div class="card">
+      <p><strong>Publisher:</strong> Ocoee Studios LLC</p>
+    </div>
+
+    <h2>Apple Health integration</h2>
+    <p>
+      Jotzi can optionally read the following data from Apple Health to display wellness
+      context in the Companion section of the app:
+    </p>
+    <ul>
+      <li>Sleep analysis</li>
+      <li>Step count</li>
+      <li>Mindful minutes</li>
+      <li>Resting heart rate</li>
+      <li>Heart rate variability (HRV)</li>
+      <li>Blood oxygen (SpO2)</li>
+    </ul>
+
+    <h2>Read-only access</h2>
+    <p>
+      Jotzi only reads health data. It never writes to or modifies your Apple Health records.
+      The native HealthKit integration requests read permission only (toShare is nil).
+    </p>
+
+    <h2>Permission and control</h2>
+    <p>
+      Jotzi requests your permission before accessing any health data. You can grant or deny
+      access to individual health categories. You can change or revoke health permissions at
+      any time in iOS Settings → Privacy & Security → Health → Jotzi.
+    </p>
+
+    <h2>How health data is used</h2>
+    <p>
+      Health data is displayed within the Companion section to give you a quick view of your
+      daily wellness signals alongside your reminders. Health data is not used for advertising,
+      analytics, or any purpose other than displaying it to you within the app.
+    </p>
+
+    <h2>Data stays on your device</h2>
+    <p>
+      Health data read from Apple Health is not stored persistently by Jotzi, is not sent to
+      any server, and is not shared with any third party including Ocoee Studios. It is read
+      on demand and displayed in the app.
+    </p>
+
+    <h2>Apple Watch</h2>
+    <p>
+      The Jotzi Apple Watch companion app displays your active reminders and lets you act on
+      them from your wrist. The Watch app receives reminder data from the iPhone via
+      WatchConnectivity. No health data is sent to or displayed on the Watch app.
+    </p>
+
+    <h2>App data storage</h2>
+    <p>
+      All other Jotzi data (reminders, notes, lists, calendar items, templates, saved info,
+      and settings) is stored locally on your device using on-device storage. Jotzi does not
+      have a cloud sync service or user account system. If you delete the app, your data will
+      be removed.
+    </p>
+
+    <h2>Data export</h2>
+    <p>
+      Jotzi Pro includes a data export feature that creates a backup file of your reminders,
+      notes, and lists. Health data is not included in exports. Exported files stay on your
+      device unless you choose to share them.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For questions about how Jotzi handles your data, contact Ocoee Studios LLC at:
+      <a href="mailto:support@ocoeestudios.com">support@ocoeestudios.com</a>
+    </p>
+
+    <h2>Policies</h2>
+    <p>
+      <a href="./privacy.html">Privacy Policy</a> ·
+      <a href="./terms.html">Terms of Use</a> ·
+      <a href="./support.html">Support</a>
+    </p>
+  </main>
+</body>
+</html>
